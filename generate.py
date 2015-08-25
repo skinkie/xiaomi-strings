@@ -22,4 +22,7 @@ with open('strings-in.csv', 'rb') as csvfile:
             translation = trans[attrib][l].replace('&#160;', '')
             if translation != '':
                 string.text = translation
-        tree.write("values-%s/strings.xml" % (l,))
+        if l == 'en':
+            tree.write("values/strings.xml" % (l,))
+        else:
+            tree.write("values-%s/strings.xml" % (l,))
