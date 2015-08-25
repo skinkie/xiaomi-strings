@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="imageAspectRatioAdjust">
+        <enum name="adjust_height" value="2" />
+        <enum name="adjust_width" value="1" />
+        <enum name="none" value="0" />
+    </attr>
+    <attr name="imageAspectRatio" format="float" />
+    <attr name="circleCrop" format="boolean" />
+    <attr name="border_thickness" format="dimension" />
+    <attr name="border_outside_color" format="color" />
+    <attr name="border_inside_color" format="color" />
+    <attr name="roundColor" format="color" />
+    <attr name="roundProgressColor" format="color" />
+    <attr name="roundWidth" format="dimension" />
+    <attr name="textColor" format="color" />
+    <attr name="textSize" format="dimension" />
+    <attr name="max" format="integer" />
+    <attr name="textIsDisplayable" format="boolean" />
+    <attr name="style">
+        <enum name="FILL" value="1" />
+        <enum name="STROKE" value="0" />
+    </attr>
+    <attr name="border_width" format="dimension" />
+    <attr name="border_color" format="color" />
+    <attr name="onDrawable" format="reference" />
+    <attr name="offDrawable" format="reference" />
+    <attr name="thumbDrawable" format="reference" />
+    <attr name="thumb_margin" format="reference|dimension" />
+    <attr name="thumb_marginTop" format="reference|dimension" />
+    <attr name="thumb_marginBottom" format="reference|dimension" />
+    <attr name="thumb_marginLeft" format="reference|dimension" />
+    <attr name="thumb_marginRight" format="reference|dimension" />
+    <attr name="thumb_width" format="reference|dimension" />
+    <attr name="thumb_height" format="reference|dimension" />
+    <attr name="onColor" format="reference|color" />
+    <attr name="offColor" format="reference|color" />
+    <attr name="thumbColor" format="reference|color" />
+    <attr name="thumbPressedColor" format="reference|color" />
+    <attr name="animationVelocity" format="integer" />
+    <attr name="radius" format="integer" />
+    <attr name="measureFactor" format="float" />
+    <attr name="insetLeft" format="reference|dimension" />
+    <attr name="insetRight" format="reference|dimension" />
+    <attr name="insetTop" format="reference|dimension" />
+    <attr name="insetBottom" format="reference|dimension" />
+    <attr name="values" format="reference" />
+    <attr name="dividerSize" format="dimension" />
+    <attr name="sideItems" format="integer" />
+    <attr name="horizontalPickerStyle" format="reference" />
+    <attr name="ptr_header" format="reference" />
+    <attr name="ptr_content" format="reference" />
+    <attr name="ptr_resistance" format="float" />
+    <attr name="ptr_ratio_of_header_height_to_refresh" format="float" />
+    <attr name="ptr_duration_to_close" format="integer" />
+    <attr name="ptr_duration_to_close_header" format="integer" />
+    <attr name="ptr_pull_to_fresh" format="boolean" />
+    <attr name="ptr_keep_header_when_refresh" format="boolean" />
+    <attr name="ptr_rotate_ani_time" format="integer" />
+</resources>
