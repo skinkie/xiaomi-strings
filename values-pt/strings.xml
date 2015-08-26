@@ -178,7 +178,7 @@ Status"</string>
     <string name="find_new_sw">New firmware version released</string>
     <string name="update_now">Do you want update now?</string>
     <string name="sd_card_format">Format SD Card</string>
-    <string name="sd_card_format_now">SDcard need format,Do it now&#65311;</string>
+    <string name="sd_card_format_now">SDcard needs to be formatted. Want to do it now&#65311;</string>
     <string name="tvRecordTime">0:00:00</string>
     <string name="ib_file_manage_contentdescription">Ficheiros</string>
     <string name="ib_quick_record_cancle">Cancel</string>

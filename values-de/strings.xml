@@ -60,8 +60,8 @@
     <string name="website">http://www.mob.com</string>
     <string name="weibo_upload_content">Senden Sie Bilder</string>
     <string name="wechat_client_inavailable">Wechat Kunde existiert nicht oder eine veraltete Version wird verwendet</string>
-    <string name="sinaweibo_client_inavailable">Sinaweibo client not exists or the version is too low</string>
-    <string name="qzone_client_inavailable">Qzone client not exists or the version is too low</string>
+    <string name="sinaweibo_client_inavailable">Sinaweibo ist nicht installiert oder die Version veraltet.</string>
+    <string name="qzone_client_inavailable">Qzone ist nicht installiert oder die Version ist veraltet.</string>
     <string name="michat_client_inavailable">&#30446;&#21069;&#24744;&#30340;&#31859;&#32842;&#29256;&#26412;&#36807;&#20302;&#25110;&#26410;&#23433;&#35013;&#65292;&#38656;&#35201;&#23433;&#35013;&#31859;&#32842;&#25165;&#33021;&#20351;&#29992;</string>
     <string name="google_plus_client_inavailable">Google+ Kunde existiert nicht oder eine veraltete Version wird verwendet</string>
     <string name="qq_client_inavailable">Mobile QQ Kunde existiert nicht oder eine veraltete Version wird verwendet</string>
@@ -165,9 +165,9 @@ Status"</string>
     <string name="tvQuickShotMode">Ansicht</string>
     <string name="tvPhotographMode">Foto</string>
     <string name="tvDevide">|</string>
-    <string name="tvResolution"/>
-    <string name="tvAspectRatio">TV aspect ratio</string>
-    <string name="tvVideoPhotoSize"/>
+    <string name="tvResolution">TV Aufl&#246;sung</string>
+    <string name="tvAspectRatio">TV Seitenverh&#228;ltnis</string>
+    <string name="tvVideoPhotoSize">Videogr&#246;&#223;e</string>
     <string name="resolution_sample">1920 X 1080 | 16:9 | 60P</string>
     <string name="preview_off">Vorschaumodus ist deaktiviert.</string>
     <string name="in_timelapes_recording">Zeitraffer Aufnahme ...</string>
@@ -367,7 +367,7 @@ Status"</string>
     <string name="format_sdcard_title">Formatierung</string>
     <string name="format_sdcard_msg">Sind Sie sicher, dass Sie die SD Karte formatieren m&#246;chten?</string>
     <string name="verion_name">Version</string>
-    <string name="share_finish">Erfolgreich geteilt! M&#246;chten Sie nun Ihre Kamere wieder verbinden?</string>
+    <string name="share_finish">Erfolgreich geteilt! M&#246;chten Sie Ihre Kamera jetzt wieder verbinden?</string>
     <string name="title_share">Erfolgreich geteilt!</string>
     <string name="title_delete">L&#246;schen</string>
     <string name="sure_to_delete">Sind Sie sicher, dass Sie die Datei l&#246;schen m&#246;chten?</string>
@@ -701,8 +701,8 @@ Status"</string>
     <string name="firmware_without_network_tips">Im Anschluss an die aktuelle Firmware-Version f&#252;r Ihre Arbeit, &#246;ffnen ein mobiler Daten oder Wi-Fi, um den letzten Beitrag downloaden</string>
     <string name="firmware_btn_update">Aktualisierung</string>
     <string name="unable_share_more_file">&#19981;&#33021;&#21516;&#26102;&#20998;&#20139;&#22810;&#20010;&#25991;&#20214;&#21734;~</string>
-    <string name="image_loading">&#25991;&#20214;&#26410;&#21152;&#36733;&#23436;&#27605;,&#19981;&#33021;&#20998;&#20139;</string>
-    <string name="refresh_camera_photo_list">Refreshing the list, temporarily can not be deleted</string>
+    <string name="image_loading">Die Datei konnte nicht geladen und nicht geteilt werden.</string>
+    <string name="refresh_camera_photo_list">Die Liste wird aktualisiert, L&#246;schen ist zur Zeit nicht m&#246;glich.</string>
     <string name="share_content">&#26469;&#33258;&#23567;&#34433;&#36816;&#21160;&#30456;&#26426;&#30340;&#20998;&#20139;</string>
     <string name="xiaomi_update_dialog_title">%1$sNeue Version</string>
     <string name="xiaomi_update_dialog_message">"Ein neues Upgrade wird unverz&#252;glich empfohlen%1$s

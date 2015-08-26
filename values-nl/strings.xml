@@ -17,7 +17,7 @@
     <string name="common_google_play_services_update_text">Deze app kan niet worden uitgevoerd, tenzij u Google Play-services updatet.</string>
     <string name="common_android_wear_update_text">Deze app wordt niet uitgevoerd, tenzij u de Android Wear-app updatet.</string>
     <string name="common_google_play_services_network_error_title">Netwerkfout</string>
-    <string name="common_google_play_services_network_error_text">Er is een gegevensverbinding nodig om verbinding te kunnen maken met Google Play-services.</string>
+    <string name="common_google_play_services_network_error_text">Er is internetverbinding nodig om verbinding te kunnen maken met Google Play-services.</string>
     <string name="common_google_play_services_invalid_account_title">Ongeldig account</string>
     <string name="common_google_play_services_invalid_account_text">Het gespecificeerde account bestaat niet op dit apparaat. Kies een ander account.</string>
     <string name="common_google_play_services_unknown_issue">Onbekend probleem met Google Play-services.</string>
@@ -70,7 +70,7 @@
     <string name="yixin_client_inavailable">Yixin niet geinstalleerd of versie is te oud</string>
     <string name="line_client_inavailable">Line is niet geinstalleerd of heeft een te oude versie</string>
     <string name="kakaotalk_client_inavailable">KakaoTalk client niet geinstalleerd of de versie is te oud</string>
-    <string name="kakaostory_client_inavailable">Lens correctie</string>
+    <string name="kakaostory_client_inavailable">KakaoStory client not exists or the version is too low</string>
     <string name="whatsapp_client_inavailable">WhatsApp niet gevonden, of te oud.</string>
     <string name="laiwang_client_inavailable">Laiwang niet geinstalleerd of de versie is te oud</string>
     <string name="miTalk">MI Talk</string>
@@ -151,7 +151,7 @@
     <string name="ib_setting_contentdescription">Instellingen</string>
     <string name="iv_percent_contentdescription">Percentage</string>
     <string name="tvCameraBatteryLevel">Camera Batterij</string>
-    <string name="tvPhoneBatteryLevel">Telefoon Batterij</string>
+    <string name="tvPhoneBatteryLevel">Telefoonaccu</string>
     <string name="tvCameraBattery">"Camera
 Batterij"</string>
     <string name="tvPhoneBattery">"Telefoon
@@ -278,7 +278,7 @@ Status"</string>
     <string name="setting_video_output_status">AV uitvoer</string>
     <string name="setting_video_rotate">Video Draaien</string>
     <string name="setting_emergency_file_backup">Crisis backup</string>
-    <string name="setting_unbind_bluetooth_dev">Verbreek alle bluetooth apparaten</string>
+    <string name="setting_unbind_bluetooth_dev">Ontkoppel alle Bluetooth-afstandsbedieningen</string>
     <string name="setting_buzzer_volume">Buzzer volume</string>
     <string name="setting_wifi">wifi instellingen</string>
     <string name="setting_led_mode">LED mode</string>
@@ -289,7 +289,7 @@ Status"</string>
     <string name="setting_hw_version">Model</string>
     <string name="setting_serial_number">Serieel nummer</string>
     <string name="setting_sw_version">Firmware versie</string>
-    <string name="setting_sdcard">SD kaart</string>
+    <string name="setting_sdcard">SD-kaart</string>
     <string name="setting_buzzer_ring">Zoek camera</string>
     <string name="setting_restore_factory_settings">Herstel fabrieks instellingen</string>
     <string name="setting_failed">Instellingen bijwerken mislukt.</string>
@@ -304,12 +304,12 @@ Status"</string>
     <string name="wifi_scan_faild">Verbinden mislukt</string>
     <string name="wifi_scan_faild_solution">Het appraat probeert opnieuw te zoeken wanneer het wifi led knippert.</string>
     <string name="wifi_invalidate_password">wifi wachtwoord is onjuist</string>
-    <string name="brightbeau">Brighbeau</string>
+    <string name="brightbeau">Brightbeau</string>
     <string name="curvelevel">Curveniveau</string>
     <string name="deepquit">Deepquit</string>
     <string name="retro">Retro</string>
     <string name="sepia">Sepia</string>
-    <string name="_8mmfilm">8mm film</string>
+    <string name="_8mmfilm">8mm-film</string>
     <string name="documentary">Documentaire</string>
     <string name="template">Sjabloon</string>
     <string name="effect">Effecten</string>
@@ -361,7 +361,7 @@ Status"</string>
     <string name="restore_factory_success">Zet de wifi aan na de piepjes.</string>
     <string name="set_camera_clock_message">Tijd aanpassen naar de tijd op de telefoon?</string>
     <string name="set_camera_clock_title">Camera klok</string>
-    <string name="factory_reset_title">Fabrieks intellingen</string>
+    <string name="factory_reset_title">Fabrieksinstellingen</string>
     <string name="title_sdcard">SD kaart</string>
     <string name="sdcard_size">XXG beschikbaar, totaal van YYG</string>
     <string name="format_sdcard_title">Formatteren</string>
@@ -407,14 +407,14 @@ Status"</string>
     <string name="firmware_upgrade_switch_wifi">Wisselen wifi optie...</string>
     <string name="firmware_upgrade_download_firmware">Firmware update downloaden...</string>
     <string name="firmware_upgrade_tip">"Firmware wordt geupload,
- houd de camera in de buurt van de telefoon."</string>
+ houd de camera in de buurt van de telefoon!"</string>
     <string name="firmware_upgrade_failed_time_out">"Verbindingstijd verstreken,
  firmware upload mislukt."</string>
     <string name="firmware_upgrade_failed_no_space">De SD kaart opslag is onvoldoen, beheer de ruimte en probeer opnieuw.</string>
     <string name="firmware_upgrade_failed_put_file_failed">Bijwerken mislukt, probeer opnieuw.</string>
     <string name="firmware_upgrade_failed_sd_card_remove">"Geen SD kaart.
  Plaats de SD kaart en probeer opnieuw."</string>
-    <string name="sure_to_cancel_firmware_upgrade">Firmware bijwerken?</string>
+    <string name="sure_to_cancel_firmware_upgrade">Wilt u de firmware bijwerken?</string>
     <string name="should_connect_to_outside_wifi">Firmware update vereist andere wifi verbinding. Verbinding met de camera verbreken?</string>
     <string name="quick_video">snelle video</string>
     <string name="video_ratio">4:3</string>
@@ -436,7 +436,7 @@ Status"</string>
     <string name="firmware_upgrade_message">Firmware downloaden?</string>
     <string name="firmware_downloading_title">Tijdens de firmware download</string>
     <string name="firmware_downloading_message">Firmware wordt gedownload, doorgaan?</string>
-    <string name="firmware_in_downloading">Firmware update wordt gedownload...</string>
+    <string name="firmware_in_downloading">Firmware-update wordt gedownload...</string>
     <string name="please_disconnect_camera">Verbreek de camera verbinding.</string>
     <string name="please_insert_sdcard">Plaats SD kaart.</string>
     <string name="video_rate_X1">X1</string>
@@ -545,7 +545,7 @@ Status"</string>
     <string name="prompt_switch_network_messsage">De verbinding met camera wordt verbroken en een verbinding met 3G/wifi zal worden gemaakt. Klaar om verder te gaan?</string>
     <string name="title_video_share">Deel video</string>
     <string name="prompt_switching_network">Wisselen netwerk...</string>
-    <string name="prompt_please_login_first">Eerst inloggen</string>
+    <string name="prompt_please_login_first">Log a.u.b. eerst in!</string>
     <string name="save_video_file_success">Dit bestand is opgeslagen als XXX.</string>
     <string name="save_video_file_fail">Opslaan mislukt.</string>
     <string name="share_my_video_message">Ik heb net een video gemaakt, bekijk het nu!</string>
@@ -559,7 +559,7 @@ Status"</string>
     <string name="no_network_connection">Geen netwerk verbinding, probeer het later</string>
     <string name="feedback_content_hint">Hoe kunnen we helpen of onze dienst verbeteren?</string>
     <string name="feedback_contact_hint">E-mail of telefoonnummer</string>
-    <string name="please_input_contact">Contact informatie</string>
+    <string name="please_input_contact">Uw contactinformatie</string>
     <string name="please_input_feedback">Hoe kunnen we helpen?</string>
     <string name="send_feedback_success">Dank voor de tip!</string>
     <string name="send_feedback_fail">Versturen mislukt, probeer opnieuw.</string>
@@ -568,7 +568,7 @@ Status"</string>
     <string name="get_sd_card_info_failed">Informatie van SD kaart ophalen mislukt.</string>
     <string name="insert_sd_card_first">Kan geen SD kaart vinden, plaats een kaart.</string>
     <string name="save">Bewaar</string>
-    <string name="file_already_downloaded">Download voltooid.</string>
+    <string name="file_already_downloaded">Downloaden voltooid.</string>
     <string name="file_is_downloading">Downloaden...</string>
     <string name="delete_success">Verwijderen gelukt!</string>
     <string name="delete_failed">Verwijderen mislukt.</string>
@@ -578,7 +578,7 @@ Status"</string>
     <string name="file_not_exist">Dit bestand kan niet worden gevonden.</string>
     <string name="find_camera">Vind de camera</string>
     <string name="high_definition">HD</string>
-    <string name="standard_definition">SD kaart moet worden geformateerd. Nu doen?</string>
+    <string name="standard_definition">SD</string>
     <string name="select_format">Formaat selectie</string>
     <string name="mp4_format">MP4 formaat</string>
     <string name="gif_format">GIF Format</string>
@@ -601,7 +601,7 @@ Status"</string>
     <string name="battery_lower_than_50_percent">Camera batterij is minder dan 50%, laad opnieuw</string>
     <string name="abnormal_sw_file">Upgrade bestand is ongebruikelijk, upload opnieuw</string>
     <string name="exit_cancle_download">Bij het afsluiten zal het gedownloade bestand  worden verwijderd, doorgaan?</string>
-    <string name="unsurported_sw_version">Het nemen van foto's wordt niet ondersteund in de huidige versie, werk bij naar de laatste versie</string>
+    <string name="unsurported_sw_version">Het nemen van foto-timelapses wordt niet ondersteund in de huidige versie. Werk de firmware bij naar de laatste versie</string>
     <string name="low_level_sd_card">Minstens een 4GB SD kaart nodig.</string>
     <string name="firmware_version_synchronize_complete">Firmware bijwerken is gelukt, de laatste versie:</string>
     <string name="get_latest_firmeware_info">Is de firmware versie...</string>
@@ -691,7 +691,7 @@ Voor YDXJ SN code na 7"</string>
     <string name="faq_title">Gebruikersvragen</string>
     <string name="sns_guide_connect_camera">Verbind Camera</string>
     <string name="switch_mode">Mode wisselen</string>
-    <string name="exit_cancle_firmware_download">Afsluiten stopt de download, toch verder gaan?</string>
+    <string name="exit_cancle_firmware_download">Afsluiten stopt de download. Toch doorgaan?</string>
     <string name="title_activity_detail_grid_view">grid_view</string>
     <string name="camera_timelaps_internal">Interval</string>
     <string name="camera_timelaps_video_length">Video lengte</string>
@@ -709,7 +709,7 @@ Voor YDXJ SN code na 7"</string>
     <string name="xiaomi_update_dialog_message">"U wordt geadviseerd om de firmware direct bij te werken naar de laatste versie %1%s Grootte: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"We advieseren om direct bij te werken naar de laatste versie%1$s
 Download slechts: %2$s"</string>
-    <string name="xiaomi_external_storage_unavailable">Opslag partitie is niet beschikbaar, controleer de SD kaart.</string>
+    <string name="xiaomi_external_storage_unavailable">Opslag partitie is niet beschikbaar. Controleer de SD kaart!</string>
     <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_kilobytes_unit">%1$sKB</string>
     <string name="xiaomi_megabytes_unit">%1$sMB</string>
