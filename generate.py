@@ -23,6 +23,6 @@ with open('strings-in.csv', 'rb') as csvfile:
             if translation != '':
                 string.text = translation
         if l == 'en':
-            tree.write("values/strings.xml" % (l,))
+            tree.write("values/strings.xml")
         else:
             tree.write("values-%s/strings.xml" % (l,))
